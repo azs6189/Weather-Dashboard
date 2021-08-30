@@ -13,31 +13,109 @@
 
 <body class = "container">
 
-<!-- HEADER: WEATHER DASHBOARD-->
+<!-- ---------- HEADER: WEATHER DASHBOARD ---------- -->
 <header class="d-flex align-items-center flex-column justify-content-center border-bottom ">
     <h1>Weather Dashboard</h1>
 </header>
 
-<!-- CITY SEARCH -->
-<article>
-    <h2>Search For City</h2>
+<!-- ------------------------------ CITY SEARCH ------------------------------ -->
+<div class ="container-fluid">
 
-    <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+    <div class ="row col-3 mb-3 text-center">
+      
+        <article class = "card" >
+          <h2>Search For City</h2>
+
+            <!-- ---------- SEARCH BAR ---------- -->
+         <form class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+         </form>
+
+
+            <!-- ---------- BUTTONS ---------- -->
+             <div class="p-2">
+             <button type="button" class="btn btn-primary">Search</button>
+             <button type="button" class="btn btn-dark">Clear</button>
+            </div>
+
+        </article>
+   </div>
+</div>
+<!-- ------------------------------ RECENT SEARCHES ------------------------------ -->
+<div class ="container-fluid">
+    <div class ="row col-3 mb-3 text-center">
+        <article class = "card">
+            <h3>Recent Searches</h2>
+                <div class ="col-md-7">
+                </div>
+        </article>
     </div>
+</div>
 
-    <!-- BUTTONS -->
-<button type="button" class="btn btn-primary">Search</button>
-<button type="button" class="btn btn-light">Clear</button>
-</article>
+    <!-- ------------------------------ FIVE DAY FORECAST ------------------------------ -->
+    <article class="card rounded-3 mb-5">
+        <h3 class="card-header text-center my-0 fw-normal">Five Day Forecast</h3>
 
-
-
-
-
+        <div class="row">
+          <div class="container p-2">
+            <div class="row row-cols-1 row-cols-md-5">
+              <!-- DAY 1-->
+              <div class="col p-1">
+                <section class="card text-dark p-2 fiveCards">
+                  <h5 class="d-flex justify-content-center badge bg-secondary"></h5>
+                  <p class="mb-1"></p>
+                  <p class="mb-1"></p>
+                  <p class="mb-1"></p>
+                  <p class="mb-1"></p>
+                </section>
+              </div>
+              <!-- DAY 2 -->
+              <div class="col p-1">
+                <section class="card text-dark p-2 fiveCards">
+                  <h5 class="d-flex justify-content-center badge bg-secondary"></h5>
+                  <p class="mb-1"></p>
+                  <p class="mb-1"></p>
+                  <p class="mb-1"></p>
+                  <p class="mb-1"></p>
+                </section>
+              </div>
+              <!-- DAY 3 -->
+              <div class="col p-1">
+                <section class="card text-dark p-2 fiveCards">
+                  <h5 class="d-flex justify-content-center badge bg-secondary"></h5>
+                  <p class="mb-1"></p>
+                  <p class="mb-1"></p>
+                  <p class="mb-1"></p>
+                  <p class="mb-1"></p>
+                </section>
+              </div>
+              <!-- DAY 4 -->
+              <div class="col p-1">
+                <section class="card text-dark p-2 fiveCards">
+                  <h5 class="d-flex justify-content-center badge bg-secondary"></h5>
+                  <p class="mb-1"></p>
+                  <p class="mb-1"></p>
+                  <p class="mb-1"></p>
+                  <p class="mb-1"></p>
+                </section>
+              </div>
+              <!-- DAY 5 -->
+              <div class="col p-1">
+                <section class="card text-dark p-2 fiveCards">
+                  <h5 class="d-flex justify-content-center badge bg-secondary"></h5>
+                  <p class="mb-1"></p>
+                  <p class="mb-1"></p>
+                  <p class="mb-1"></p>
+                  <p class="mb-1"></p>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
 </body>
 
 
-<!-- JavaScript file linking -->
+<!-- ---------- JavaScript file linking----------  -->
 <script src="assets/script.js"></script>
 </html>
