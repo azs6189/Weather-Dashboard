@@ -34,8 +34,8 @@
 
               <!-- ---------- BUTTONS ---------- -->
               <div class="p-2">
-              <button type="button" class="btn btn-primary">Search</button>
-              <button type="button" class="btn btn-dark">Clear</button>
+              <button type="button" class="btn btn-primary" id="btn-main">Search</button>
+              <button type="button" class="btn btn-dark" id="btn-main">Clear</button>
               </div>
 
             </article>
@@ -46,8 +46,9 @@
       <div class ="row col-3 mb-3 text-center">
           <article class = "card">
               <h3>Recent Searches</h2>
-                  <div class ="col-md-7">
-                  </div>
+                <div class="col-12 col-md-6">
+                  <ul id="recentSearch" class="list-unstyled flex-column mb-auto fs-5"></ul>
+                </div>
           </article>
       </div>
   </div>
