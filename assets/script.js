@@ -169,8 +169,8 @@ var loadCities = function() {
     if (!cityArr) {
         cityArr = [];
         return false;
-    } else if (cityArr.length > 5) {
-        // saves only the five most recent cities
+    } else if (cityArr.length > 7) {
+        // saves only the seven most recent cities
         cityArr.shift();
     }
 
