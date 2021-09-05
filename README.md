@@ -1,6 +1,10 @@
 # Weather-Dashboard
 
-User Story
+## Purpose
+
+An application that displays a city's current weather data and its five-day forecast.
+
+## User Story
 
 AS A traveler
 I WANT to see the weather outlook for multiple cities
@@ -34,11 +38,12 @@ THEN I am again presented with current and future conditions for that city
 
 ---
 
-Link for deployed webpage of Weather-Dashboard
+## Link for Deployed Webpage of Weather-Dashboard
+
 https://azs6189.github.io/Weather-Dashboard/
 
 ---
 
-Screenshot deployed webpage Weather-Dashboard
+## Web Page
 
 ![Weather-Dashboard](images/weather-dashboard.png)
