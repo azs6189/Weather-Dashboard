@@ -28,21 +28,15 @@ THEN I am presented with a 5-day forecast that displays the date, an icon repres
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 
----
-
 ## Built With
 
 - HTML5
 - JavaScript
 - BootStrap 5
 
----
-
 ## Link for Deployed Webpage of Weather-Dashboard
 
 https://azs6189.github.io/Weather-Dashboard/
-
----
 
 ## Web Page
 
