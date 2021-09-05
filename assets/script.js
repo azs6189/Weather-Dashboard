@@ -7,7 +7,7 @@ var cityInput = document.querySelector('#city-input');
 var cityArr = [];
 
 var formHandler = function(event) {
-    // formats city name
+    // FORMATS CITY NAME
     var selectedCity = cityInput
         .value
         .trim()
@@ -24,7 +24,7 @@ var formHandler = function(event) {
     };
 };
 
-// uses 'current weather api' to fetch latitude and longitude
+// USES 'CURRENT WEATHER API' TO FETCH LONGITUTDE AND LATITUDE
 var getCoords = function(city) {
     var currentWeatherApi = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`;
 
@@ -78,7 +78,7 @@ var displayTemp = function(element, temperature) {
     tempEl.textContent = elementText;
 }
 
-// displays current forecast
+// DISPLAYS CURRENT FORECAST
 var currentForecast = function(forecast) {
     
     var forecastEl = document.querySelector('.city-forecast');
@@ -110,7 +110,7 @@ var currentForecast = function(forecast) {
     var currentUvi = forecast.current['uvi'];
     uviEl.textContent = currentUvi;
 
-    // styles UV index
+    // STYLES UV INDEX
     switch (true) {
         case (currentUvi <= 2):
             uviEl.className = 'badge badge-success';
@@ -127,7 +127,7 @@ var currentForecast = function(forecast) {
     }
 }
 
-// display five day forecast
+// DISPLAYS FIVE DAY FORECAST
 var fiveDayForecast = function(forecast) { 
     
     for (var i = 1; i < 6; i++) {
@@ -148,7 +148,7 @@ var fiveDayForecast = function(forecast) {
     }
 }
 
-// saves cities into local storage
+// SAVES CITIES INTO LOCAL STORAGE
 var saveCity = function(city) {
 
     // prevents duplicate city from being saved and moves it to end of array
@@ -162,7 +162,7 @@ var saveCity = function(city) {
     localStorage.setItem('cities', JSON.stringify(cityArr));
 }
 
-// loads cities from local storage
+// LOADS CITIES FROM LOCAL STORAGE
 var loadCities = function() {
     cityArr = JSON.parse(localStorage.getItem('cities'));
 
@@ -170,7 +170,7 @@ var loadCities = function() {
         cityArr = [];
         return false;
     } else if (cityArr.length > 7) {
-        // saves only the seven most recent cities
+        // SAVES ONLY THE 7 MOST RECENT CITIES
         cityArr.shift();
     }
 
@@ -201,7 +201,7 @@ var selectRecent = function(event) {
 loadCities();
 cityBtn.addEventListener('click', formHandler)
 
-// searches for city on ENTER key
+// SEARCHES FOR CITY ON ENTER KEY RELEASE
 cityInput.addEventListener('keyup', function(event) {
     if (event.keyCode === 13) {
         cityBtn.click();
