@@ -28,4 +28,5 @@ Link for deployed webpage of Weather-Dashboard
 https://azs6189.github.io/Weather-Dashboard/
 
 Screenshot deployed webpage Weather-Dashboard
+
 ![Weather-Dashboard](images/weather-dashboard.png)
