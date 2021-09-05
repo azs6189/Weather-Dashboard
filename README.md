@@ -21,5 +21,5 @@ THEN I am again presented with current and future conditions for that city
 Link for deployed webpage of Weather-Dashboard
 https://azs6189.github.io/Weather-Dashboard/
 
-Screenshot deployed webpage for My-Portfolio
+Screenshot deployed webpage Weather-Dashboard
 ![Weather-Dashboard](images/weather-dashboard.png)
