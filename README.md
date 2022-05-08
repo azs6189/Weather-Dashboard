@@ -12,7 +12,7 @@ The Weather Dashboard is an application that displays a city's current weather d
 
 ## Usage
 
-a. Head over to the Weather Dashboard site:
+a. Head over to the Weather Dashboard webpage:
 https://azs6189.github.io/Weather-Dashboard/
 
 b. Begin your search by typing the name of the city of your choice in the search box.
