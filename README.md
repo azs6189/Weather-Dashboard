@@ -1,6 +1,13 @@
 # Weather-Dashboard
 
-## Purpose
+## Table of Contents
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Video](#video)
+
+## Description
 
 An application that displays a city's current weather data and its five-day forecast.
 
