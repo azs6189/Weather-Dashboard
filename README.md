@@ -4,7 +4,7 @@
 
 - [Description](#description)
 - [Usage](#usage)
-- [Video](#video)
+- [Web Page](#web-page)
 
 ## Description
 
