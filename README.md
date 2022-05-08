@@ -28,10 +28,8 @@ d. You may also click on a city in the search history. You will be presented wit
 - BootStrap 5
 - OpenWeatherMap API
 
-## Link for Deployed Webpage of Weather-Dashboard
+## Web Page
 
 https://azs6189.github.io/Weather-Dashboard/
-
-## Web Page
 
 ![Weather-Dashboard](images/weather-dashboard.png)
